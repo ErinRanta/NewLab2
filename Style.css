@@ -1,0 +1,43 @@
+body{
+    
+    background-color: rgb(155, 223, 237);
+    
+    }
+    
+    
+    h1{
+        color:rgb(243, 39, 63);
+        font-family: gothic;
+        text-align: center
+    
+    }
+    h2{
+        text-align: center;
+    }
+    
+    p{
+        font-family: gothic;
+        color:rgb(65, 36, 70);
+        text-align: center;
+    }
+    
+    ol{
+        list-style-position: inside;
+        text-align: center;
+        font-family: gothic;
+
+
+    }
+    ul{
+        list-style-position: inside;
+        text-align: center;
+    }
+
+    
+    h3{
+        text-align: center;
+    }
+    
+    li{
+        text-align: center;
+    }
