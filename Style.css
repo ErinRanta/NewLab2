@@ -5,39 +5,102 @@ body{
     }
     
     
-    h1{
+    h1 { 
         color:rgb(243, 39, 63);
         font-family: gothic;
         text-align: center
+       
+    }
+
+    h1 {
+        border-style: solid;
+        border-width: 5px black;
+        border-width: thick;
+
+
+}
     
-    }
-    h2{
+    
+    h2 {
         text-align: center;
+        font-size: medium;
     }
+
+    h2 {
+    
+        border-width: 200px;
+        border-style: solid;
+        border-color: darkslategrey;
+    }
+
+
+    
     
     p{
         font-family: gothic;
         color:rgb(65, 36, 70);
         text-align: center;
+        font-style: bold;
+        font-size: medium;
     }
-    
-    ol{
-        list-style-position: inside;
-        text-align: center;
-        font-family: gothic;
+    p {
+       
+        border-width: 20px;
+        border-style: solid;
+        border-color: darkslategray;
+        background-color:aliceblue;
+    }
+    p.one {
+        background-color: aliceblue;
+    }
+    p.two{
+        background-color: rgb(221, 221, 163);
+    }
+p.three{
+    background-color: lightgray;
+}
 
+
+
+    ol{
+       
+        text-align: left;
+        font-family: gothic;
+    }
+    ol{ 
+        border-style: solid;
+        border-width: 50%
+        
+        
 
     }
     ul{
-        list-style-position: inside;
-        text-align: center;
+        border-style: solid;    
+         list-style-position: inside;
+        text-align: right;
+        
     }
 
     
     h3{
-        text-align: center;
+        text-align: left;
+        color:rgb(243, 39, 63)
+    }
+    h3.two{
+        text-align: right;
+    
     }
     
     li{
+        display:inline-block;
+        border:1px solid #000;
+        padding:20px;
+        text-align: center;
+        
+        
+        
+    }
+
+    li.one{
         text-align: center;
     }
