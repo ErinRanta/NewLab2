@@ -48,7 +48,6 @@ if (question5 === "yes"){
 Question();
 
 
-
 let favoriteFlavors = ['caramel', 'strawberry', 'vanilla', 'cherry', 'butter pecan', 'cookie dough', 'birthday cake',];
 let numberGuesses = 0;
 let allowedAttempts = 7;
@@ -68,7 +67,7 @@ while ((numberGuesses < allowedAttempts) && !correctAnswerFound) {
             }
         }
         if (!correctAnswerFound) {
-            alert('you have' + (allowedAttempts - numberGuesses) + ' left');
+            alert('you have ' + (allowedAttempts - numberGuesses) + ' left');
                   }
 }
 
@@ -103,8 +102,62 @@ function checkAnswers(qNumber){
     } else alert("You're wrong")
     }
 
-
- 
- 
+    let numQuest = prompt("Guess a number between 1 and 20");
+    if (numQuest == 6) {
+alert("Yes, You are right!")
+        tally = tally + 1;
+    } else {
+        for (let i = 4; i >=0; i--){
+            if (numQuest == 6) {
+                alert("Yes, you are right!");
+                tally = tally + 1;
+                break;
+            } else if (i == 0) {
+                alert("No more guesses! THe answer is 6")
+                break;
+            } else if (numQuest < 6) {
+                numQuest = prompt("Too low, guess a number between 1 and 20. " + i + " guesses remaining.");
+            } else if (numQuest > 6) {
+                numQuest =  prompt("Too High! Guess a number between 1 and 20. " + i + " guesses remain.");
+            }
+         }  
+     }
+    
+  
+    
+    
+      
+    
+    
+      
+    
+    
+    
+    
+    
+       
+    
+    
+        
+    
+    
+               
+    
+    
+           
+    
+       
+    
+    
+    
+    
+    
+    
+    
+       
+    
+    
+    
+    
 
 
